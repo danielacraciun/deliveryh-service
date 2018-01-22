@@ -9,14 +9,16 @@ Markdown==2.6.11
 # For the persistence stores
 psycopg2==2.7.3.2
 
-# Developer Tools
+# Developer Tools -- should have separate requirements file, here for demo
 ipdb==0.10.3
 ipython==6.2.1
-mkdocs==0.17.2
 flake8==3.5.0
 
 # Testing
 mock==2.0.0
-factory-boy==2.9.2
 django-nose==1.4.5
 django-dynamic-fixture==2.0.0
+
+# Docs
+coreapi==2.3.3
+
