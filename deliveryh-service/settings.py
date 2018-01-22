@@ -27,7 +27,8 @@ SECRET_KEY = '6^cwz#w5!idyi=mopt3*c%*^wt-@jhprzzjqq2fajn&zz^@^(q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Unsecure but helps when using docker-machine rather than local one
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
