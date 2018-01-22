@@ -10,6 +10,3 @@ COPY . /code/
 WORKDIR /code
 
 EXPOSE 8000
-
-# Migrates the database
-CMD ./manage.py migrate
